@@ -43,7 +43,7 @@ def video_feed():
 
 def generate_frames():
     cap = cv2.VideoCapture(0)
-    while True:
+     while True:
         frameCaptured, frame = cap.read()
         if not frameCaptured:
             break
